@@ -5,3 +5,7 @@
     background-blend-mode: overlay;
     height: 800px;
 }
+
+.carousel-item active {
+    filter: brightness(20%);
+}
