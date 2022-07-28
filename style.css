@@ -1,0 +1,26 @@
+.own-make-css {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+@media (max-width: 768px) {
+    .car-hea {
+        padding: calc(1rem+1vh);
+        font-size: 0.7rem;
+    }
+
+    .car-par {
+        padding: calc(1rem+0.9vh);
+        font-size: 0.5rem;
+    }
+
+    @media (max-width: 992px) {
+        .car-hea {
+            padding: calc(1rem+1vh);
+            font-size: 1.3rem;
+        }
+
+        .car-par {
+            padding: calc(1rem+0.9vh);
+            font-size: 0.7rem;
+        }
